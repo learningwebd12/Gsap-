@@ -1,0 +1,85 @@
+.main-product{
+    
+    width: 100%;
+
+    .all-product-container{
+        max-width: 1920px;
+        margin: 0 auto;
+        
+        display: flex;
+
+        .text-container{
+            padding: 1rem;
+            left: -50%;
+            position: relative;
+        }
+
+        .first-container{
+            padding: 1rem;
+            margin-top:2rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+
+           
+
+            .bottleimg{
+                height: 750px;
+                top: -10%;
+                left: -200%;
+                position: relative;
+            }
+            .leafimg{
+                position: absolute;
+                top: 50px;
+                left: 100px;
+                height: 150px;
+            }
+            .lemonimg{
+                position: absolute;
+                bottom: 50px;
+                right: 50px;
+                height: 150px;
+            }
+        }
+        .text-container{
+           
+            .stress{
+                font-size: 5rem;
+            }
+            .main-span{
+                background-color: #0D3F04;
+                padding: 1rem 4rem;
+                color: #fff;
+
+            }
+        }
+        .second-container{
+          padding: 1rem;
+          right: -40%;
+          position: relative;
+
+           p{
+            margin: 1rem 0;
+           }
+            
+ ul {
+    margin: 1rem 0;
+ }
+    li{
+    list-style: none;
+    color: #484646;
+ }
+            .list-span{
+                color: #0D3F04;
+                font-weight: 700;
+
+            }
+        }
+    }
+}
+
+
+
+

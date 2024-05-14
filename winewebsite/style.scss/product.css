@@ -1,0 +1,66 @@
+.main-product {
+  width: 100%;
+}
+.main-product .all-product-container {
+  max-width: 1920px;
+  margin: 0 auto;
+  display: flex;
+}
+.main-product .all-product-container .text-container {
+  padding: 1rem;
+  left: -50%;
+  position: relative;
+}
+.main-product .all-product-container .first-container {
+  padding: 1rem;
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.main-product .all-product-container .first-container .bottleimg {
+  height: 750px;
+  top: -10%;
+  left: -200%;
+  position: relative;
+}
+.main-product .all-product-container .first-container .leafimg {
+  position: absolute;
+  top: 50px;
+  left: 100px;
+  height: 150px;
+}
+.main-product .all-product-container .first-container .lemonimg {
+  position: absolute;
+  bottom: 50px;
+  right: 50px;
+  height: 150px;
+}
+.main-product .all-product-container .text-container .stress {
+  font-size: 5rem;
+}
+.main-product .all-product-container .text-container .main-span {
+  background-color: #0D3F04;
+  padding: 1rem 4rem;
+  color: #fff;
+}
+.main-product .all-product-container .second-container {
+  padding: 1rem;
+  right: -40%;
+  position: relative;
+}
+.main-product .all-product-container .second-container p {
+  margin: 1rem 0;
+}
+.main-product .all-product-container .second-container ul {
+  margin: 1rem 0;
+}
+.main-product .all-product-container .second-container li {
+  list-style: none;
+  color: #484646;
+}
+.main-product .all-product-container .second-container .list-span {
+  color: #0D3F04;
+  font-weight: 700;
+}/*# sourceMappingURL=product.css.map */
