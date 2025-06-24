@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@font-face {
+    font-family: bokis;
+    src: url(./fonts/HighriseFont-Bold-Demo.otf);
+}
+@font-face {
+    font-family: cur;
+    src: url(./fonts/Riccione-Serial-Light-RegularItalic.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins";
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+}
+body{
+    padding: 0 5vw;
+    background-color: #161616;
+    overflow-x: hidden;
+}
+
+.home-btn{
+    height: 2vw;
+}
+
+header{
+    width: 100%;
+    padding: 1vw 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+header::after{
+    content: "";
+    position: absolute;
+    width: 25vw;
+    height: 25vw;
+    left:-10vw;
+    top: -5vw;
+    z-index: -2;
+    background: radial-gradient(50% 50% at 50% 50%, #6f52feab 0%, #6f52fe00 100%, #d9d9d900 100%);
+    opacity: 0.3;
+}
+
+.logo{
+    color: antiquewhite;
+    font-size: 1.2vw;
+}
+nav a{
+    text-decoration: none;
+    color: antiquewhite;
+    margin: 0 1vw;
+    font-size: 1vw;
+    text-transform: capitalize;
+}
+.nav-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.lets-btn{
+    padding: 1vw 3.5vw;
+    background-color: #A7D200;
+    border: none;
+    outline: none;
+    border-radius: 10vw;
+    cursor: pointer;
+    font-size: 1vw;
+}
+.icon-img{
+    background-color: #A7D200;
+    border-radius: 10vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.7vw;
+}
+.nav-icon{
+    height: 1.5vw;
+    padding: 0.2vw;
+    cursor: pointer;
+}
+
+.home-page{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+}
+
+.left{
+    width: 50%;
+    padding: 5vw 0;
+}
+.main-h1-text{
+    font-size: 6vw;
+    color: antiquewhite;
+    font-family: bokis;
+    letter-spacing: 0vw;
+}
+span{
+color: #A7D200;
+font-family: cur;
+font-weight: 100;
+}
+.pasag{
+    color: antiquewhite;
+    font-size: 0.9vw;
+    width: 80%;
+    
+}
+.btn-and-client{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1vw 0;
+}
+.client{
+    height: 2.5vw;
+}
+.homebtn{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 2vw 0;
+}
+.total{
+    color: antiquewhite;
+    font-size: 0.9vw;
+    
+}
+.view-work{
+    padding: 1vw 3.5vw;
+    background-color: #A7D200;
+    border: none;
+    outline: none;
+    border-radius: 10vw;
+    cursor: pointer;
+    font-size: 1vw;
+}
+.img-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2vw;
+    position: relative;
+}
+.img-text::after{
+    content: "";
+    position: absolute;
+    width: 18vw;
+    height: 18vw;
+    left: -30vw;
+    bottom: -10vw;
+    z-index: -1;
+    background: radial-gradient(50% 50% at 50% 50%, #6E52FE 0%, #6f52fe00 100%, #d9d9d900 100%);
+    opacity: 0.3; 
+}
+.right{
+    width: 50%;
+    position: relative;
+}
+.right::after{
+        content: "";
+        position: absolute;
+        width: 35vw;
+        height: 35vw;
+        right:-23vw;
+        top: 0vw;
+        z-index: -1;
+        background: radial-gradient(50% 50% at 50% 50%, #6E52FE 0%, #6f52fe00 100%, #d9d9d900 100%);
+        opacity: 0.3; 
+}
+
+.right-img{
+    width: 100%;
+    transform: re;
+    height: 40vw;
+}
